@@ -171,7 +171,6 @@
     width: 0px;
   }
 }
-
 .navbar-phone::before {
   content: " ";
   display: inline-block;
