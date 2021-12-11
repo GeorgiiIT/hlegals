@@ -85,7 +85,7 @@ body {
 }
 
 .clients-container {
-  display: grid;
+  display: grid;	
   grid-template-columns: repeat(4, 1fr);
 
   image-rendering: {
