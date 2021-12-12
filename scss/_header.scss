@@ -8,7 +8,7 @@
       .nav-link {
         color: white;
         font-size: 18px;
-		  padding-bottom: 0;
+        padding-bottom: 0;
       }
     }
   }
@@ -88,13 +88,13 @@
     justify-content: flex-end;
     margin-bottom: auto;
     align-items: center;
-	 margin-bottom: 45px;
+    margin-bottom: 45px;
 
     @media (max-width: 992px) {
       order: 1;
       width: 100%;
       justify-content: space-between;
-		margin-bottom: 20px;
+      margin-bottom: 20px;
     }
     @media (max-width: 768px) {
       margin-bottom: 20px;
@@ -113,9 +113,8 @@
   &-phone {
     color: white;
     text-decoration: none;
-    margin: 0 10px; 
+    margin: 0 10px;
   }
-
 
   &-phone::after {
     content: " ";
@@ -135,7 +134,7 @@
   @media (max-width: 768px) {
     &-phone::after {
       width: 0px;
-		margin: 0;
+      margin: 0;
     }
   }
 
@@ -172,5 +171,3 @@
     }
   }
 }
-
-

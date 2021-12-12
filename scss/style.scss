@@ -75,11 +75,10 @@ body {
       margin: 0 7px;
     }
   }
-  &-img{
-	  width: 100%;
+  &-img {
+    width: 100%;
   }
 }
-
 
 .home-carousel {
   .carousel-item {
@@ -89,7 +88,7 @@ body {
 }
 
 .clients-container {
-  display: grid;	
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
 
   image-rendering: {
@@ -106,135 +105,125 @@ body {
   }
 }
 
-.text-info{
-	display: flex;
-	align-items: baseline;
-	margin: 40px 0 0 16px;
+.text-info {
+  display: flex;
+  align-items: baseline;
+  margin: 40px 0 0 16px;
 
-	.upper-text{
-		color:  #24A3FF;
-		font-size: 14px;
-		font-weight: 700;
-		letter-spacing: 1px;
-		text-transform: uppercase;
-		text-decoration: none;
-		
-	}
-	.upper-text::after{
-		content: "\003E";
-		color:  #24A3FF;
-		margin-left: 5px;
-		font-size: 20px;
-		font-weight: 500;	
-	}
-	
+  .upper-text {
+    color: #24a3ff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .upper-text::after {
+    content: "\003E";
+    color: #24a3ff;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 500;
+  }
 }
-.section-heading{
-		font-size: 42px;
-		font-weight: 700;
-		background: linear-gradient(100deg, #F0145A, #EF8080);
-		background-clip: text;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		color: #F0145A; 
-		margin-left: 16px;
-	}
-	.carousel-img-circle{
-		display: none;
-	}
+.section-heading {
+  font-size: 42px;
+  font-weight: 700;
+  background: linear-gradient(100deg, #f0145a, #ef8080);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #f0145a;
+  margin-left: 16px;
+}
+.carousel-img-circle {
+  display: none;
+}
 
+@media (max-width: 1280px) {
+  .section-heading {
+    font-size: 32px;
+  }
+}
 
-		@media (max-width: 1280px){
-		.section-heading{
-		font-size: 32px;
-		}
-		}
+@media (max-width: 1024px) {
+  .section-heading {
+    font-size: 32px;
+  }
+}
 
+@media (max-width: 992px) {
+  .img-col {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .carousel-info {
+    position: relative;
+    left: 90px;
+    bottom: -85px;
+    hyphens: auto;
+  }
+  .section-heading {
+    font-size: 32px;
+    margin-bottom: -90px;
+    margin-right: 10px;
+  }
+  .carousel-img {
+    width: 100%;
+    display: none;
+  }
+  .col-img {
+    margin: 10px 10px 20px 20px;
+  }
+  .col-text {
+    min-width: 100%;
+    margin-left: 5px;
+  }
+  .carousel-img-circle {
+    display: flex;
+  }
+}
 
-		@media (max-width: 1024px){
-			.section-heading{
-			font-size: 32px;
-		}
-		}
+@media (max-width: 768px) {
+  .section-heading {
+    font-size: 32px;
+    margin-bottom: -70px;
+  }
+  .section-heading {
+    font-size: 32px;
+    margin-bottom: -90px;
+  }
+  .carousel-img-circle {
+    display: flex;
+  }
+}
+@media (max-width: 568px) {
+  .col-text {
+    hyphens: auto;
+  }
+  .carousel-info-name {
+    max-width: 50%;
+  }
+  .section-heading {
+    font-size: 32px;
+    margin-bottom: -90px;
+  }
+  .carousel-img-circle {
+    display: flex;
+  }
+}
 
-	
+.carousel-info-name {
+  font-size: 18px;
+  color: #b3b3ba;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 16px;
+}
 
-		@media (max-width:992px){
-			.img-col{
-			display: flex;
-			flex-direction: column-reverse;
-		}
-		.carousel-info{
-			position: relative;
-			left: 90px;
-			bottom: -85px;
-			hyphens: auto;
-		}
-			.section-heading{
-			font-size: 32px;
-			margin-bottom: -90px;
-			margin-right: 10px;
-		}
-		.carousel-img {
-			width: 100%;
-			display: none;
-		}
-		.col-img{
-			margin: 10px 10px 20px 20px;
-		}
-		.col-text{
-			min-width: 100%;
-			margin-left: 5px;
-		}
-		.carousel-img-circle{
-				display: flex;
-			}
-		}
-		
-		@media (max-width:768px){
-			.section-heading {
-				font-size: 32px;
-				margin-bottom: -70px;
-		}
-			.section-heading {
-				font-size: 32px;
-				margin-bottom: -90px;
-			}
-			.carousel-img-circle{
-				display: flex;
-			}
-		}
-		@media (max-width:568px){
-			.col-text{
-				hyphens: auto;
-			}
-			.carousel-info-name{
-				max-width: 50%;
-			}
-			.section-heading {
-				font-size: 32px;
-				margin-bottom: -90px;
-			}
-			.carousel-img-circle{
-				display: flex;
-			}
-		}
-		
-	.carousel-info-name{
-		font-size: 18px;
-		color: #B3B3BA;
-		margin-top: 20px;
-		margin-bottom: 0;
-		margin-left: 16px;
-		
-	}
-	
-	.carousel-info-role{
-		font-size: 18px;
-		color: #B3B3BA;
-		margin-top: 5px;
-		margin-left: 16px;
-	}
-
-	
-	
+.carousel-info-role {
+  font-size: 18px;
+  color: #b3b3ba;
+  margin-top: 5px;
+  margin-left: 16px;
+}
