@@ -107,6 +107,7 @@ body {
 
 .text-info {
   display: flex;
+  flex-direction: column;
   align-items: baseline;
   margin: 40px 0 0 16px;
 
@@ -134,120 +135,143 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #f0145a;
-  margin-left: 16px;
   margin-right: 10px;
 }
 .carousel-img-circle {
   display: none;
 }
-
-@media (max-width: 1280px) {
-  .section-heading {
-    font-size: 32px;
-	 margin-right: 10px;
-  }
-}
-@media (max-width: 1024px) {
-  .section-heading {
-    font-size: 32px;
-	 margin-right: 10px;
-  }
-}
-@media (max-width: 992px) {
-  .img-col {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .carousel-info {
-    position: relative;
-    left: 90px;
-    bottom: -85px;
-    hyphens: auto;
-  }
-  .section-heading {
-    font-size: 30px;
-    margin-bottom: -90px;
-    margin-right: 10px;
-  }
-  .carousel-img {
-    width: 100%;
-    display: none;
-  }
-  .col-img {
-    margin: 10px 10px 20px 20px;
-  }
-  .col-text {
-    min-width: 100%;
-    margin-left: 5px;
-  }
-  .carousel-img-circle {
-    display: flex;
-  }
-}
-
-@media (max-width: 768px) {
-  .section-heading {
-    font-size: 32px;
-    margin-bottom: 100px;
-	 margin-right: 10px;
-  }
-  .section-heading {
-    font-size: 32px;
-    margin-bottom: -90px;
-  }
-  .carousel-img-circle {
-    display: flex;
-  }
-  .col-img {
-    margin: 10px 10px 20px 20px;
-}
-}
-@media (max-width: 568px) {
-  .col-text {
-    hyphens: auto;
-  }
-  .carousel-info-name {
-    max-width: 50%;
-  }
-  .section-heading {
-    font-size: 32px;
-    margin-bottom: -90px;
-	 margin-right: 10px;
-	 word-wrap: break-word;
-  }
-  .carousel-img-circle {
-    display: flex;
-  }
-  .col-img {
-    margin: 10px 10px 35px 20px;
-}
-.carousel-info {
-    position: relative;
-    left: 90px;
-    bottom: -85px;
-    hyphens: auto;
-  }
-}
-@media (max-width: 554px){
-	.carousel-info {
-    position: relative;
-    left: 90px;
-    bottom: -102px;
-    hyphens: auto;
-  }
-}
-
 .carousel-info-name {
   font-size: 18px;
   color: #b3b3ba;
   margin-top: 20px;
   margin-bottom: 0;
-  margin-left: 16px;
 }
 
 .carousel-info-role {
   font-size: 18px;
   color: #b3b3ba;
   margin-top: 5px;
-  margin-left: 16px;
 }
+
+ @media (max-width: 1280px) {
+   .section-heading {
+     font-size: 32px;
+ 	 	margin-right: 10px;
+   }
+ }
+ @media (max-width: 1024px) {
+   .section-heading {
+     font-size: 32px;
+ 	margin-right: 10px;
+   }
+ }
+// @media (max-width: 768px) {
+//   .img-col {
+//     display: flex;
+//     flex-direction: column-reverse;
+//   }
+//   .carousel-info {
+    
+//   }
+//   .section-heading {
+//     font-size: 30px;
+//     margin-bottom: -90px;
+//     margin-right: 10px;
+//   }
+//   .carousel-img {
+//     width: 100%;
+//     display: none;
+//   }
+//   .col-img {
+//     margin: 10px 10px 20px 20px;
+//   }
+//   .col-text {
+//     min-width: 100%;
+//     margin-left: 5px;
+//   }
+//   .carousel-img-circle {
+//     display: flex;
+//   }
+// }
+
+// @media (max-width: 768px) {
+//   .section-heading {
+//     font-size: 32px;
+//     margin-bottom: 100px;
+// 	 margin-right: 10px;
+//   }
+//   .section-heading {
+//     font-size: 32px;
+//     margin-bottom: -90px;
+//   }
+//   .carousel-img-circle {
+//     display: flex;
+//   }
+//   .col-img {
+//     margin: 10px 10px 20px 20px;
+// }
+// }
+// @media (max-width: 568px) {
+//   .col-text {
+//     hyphens: auto;
+//   }
+//   .carousel-info-name {
+//     max-width: 50%;
+//   }
+//   .section-heading {
+//     font-size: 32px;
+//     margin-bottom: -90px;
+// 	 margin-right: 10px;
+// 	 word-wrap: break-word;
+//   }
+//   .carousel-img-circle {
+//     display: flex;
+//   }
+//   .col-img {
+//     margin: 10px 10px 35px 20px;
+// }
+// .carousel-info {
+//     position: relative;
+//     left: 90px;
+//     bottom: -85px;
+//     hyphens: auto;
+//   }
+// }
+@media (max-width: 992px){
+	.img-col{
+		display: flex;
+		flex-direction: column-reverse;
+		width: 100%;
+		
+	}
+	.col-text {
+    hyphens: auto;
+	 min-width: 100%;
+  }
+  .carousel-img{
+	  display: none;
+  }
+  .carousel-img-circle{
+	  display: flex;
+	  max-height: 60px;
+  }
+  .carousel-info{
+	  display: flex;
+	  align-items: center;
+  }
+  .section-heading{
+	  font-size: 32px;
+
+  }
+  .text-info-position{
+	  margin-left: 10px;
+  }
+  .text-info{
+	  margin: 20px 0 0px 20px;
+  }
+  .carousel-info-role{
+	  margin-bottom: 20px;
+  } 
+}
+
+
