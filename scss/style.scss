@@ -1,6 +1,7 @@
 @import "variables";
 @import "header";
 @import "main";
+@import "footer";
 
 @font-face {
   font-family: "TT Norms";
@@ -205,4 +206,10 @@ body {
   .carousel-info-role {
     margin-bottom: 20px;
   }
+}
+
+.contact-map{
+	width: 100%;
+	height: 600px;
+	display: block;
 }
