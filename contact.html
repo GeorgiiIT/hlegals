@@ -12,7 +12,7 @@
 	<title>Document</title>
 </head>
 
-<body class="second-page">
+<body class="contact-page">
 	<!-- navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light">
 		<div class="container navbar-container">
@@ -40,7 +40,7 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 					<li class="nav-item nav-about">
-						<a class="nav-link active" href="#">про нас</a>
+						<a class="nav-link" href="#">про нас</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">послуги</a>
@@ -52,12 +52,83 @@
 						<a class="nav-link" href="#">публікації</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">контакти</a>
+						<a class="nav-link active nav-border" href="#">контакти</a>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</nav>
+
+
+	<div class="container">
+		<div class="contact-row">
+			<div class="col-contact-one">
+				<div class="contact-data">
+					<div class="contact-address">
+						<p class="contact-sity">
+							Одеса, <br> Адміральський пр., 3
+						</p>
+					</div>
+					<div class="contact-communication">
+						<a href="tel:+38(050)3901595" class="contact-phone communication">+38 (050) 390 15 95</a>
+					</div>
+					<div class="contact-email-address">
+						<div class="contact-email-indentation">
+						<a href="mailto:contact@hlegals.net" class="contact-email communication">contact@hlegals.net</a>
+						</div>
+					</div>
+					<div class="contact-social">
+						<a href="#"> <img src="img/fb-blu.svg" alt="fb-grey" /></a>
+						<a href="#" class="contact-text-fb contact-email communication">Наша сторінка <br> в фейсбуці</a>
+					</div>
+				</div>
+			</div>
+			
+
+			<div class="col-contact-two contact-background">
+				<form class="contact-form">
+					<div class="contact-heading-big form-indentation">
+						<h1 class="contact-gradient">Ми хотіли б Вам допомогти</h1>
+					</div>
+					<div class="contact-form-name form-indentation">
+						<label for="username"></label>
+						<input type="text" class="contact-input" name="name"  placeholder="Iм’я" id="username">
+					</div>
+					<div class="contact-form-comment form-indentation">
+						<label class="contact-label-comment" for="comment" id="text">
+							<textarea class="contact-text-comment contact-input" maxlength="1000" name="text" id="comment" placeholder="Повідомлення"></textarea>
+						</label>
+					</div>
+					<div class="contact-heading form-indentation">
+						<h2 class="contact-heading-mini">Як вам відповісти?</h2>
+					</div>
+					<div class="contact-form-phone form-indentation">
+						<label for="phone"></label>
+						<input type="tel" class="contact-input" name="tel" placeholder="Номер телефона" id="phone">
+					</div>
+					<div class="contact-form-mail form-indentation">
+						<label for="email"></label>
+						<input type="email" class="contact-input" name="mail" placeholder="Чи email" id="email">
+					</div>
+					<div class="contact-botom">
+						<label for="contact-send"></label>
+						<input class="contact-submit" type="submit" value="Надіслати запит" id="contact-send">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
 
 				<iframe class="contact-map"
 					src="https://maps.google.com/maps?q=%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B0,%20%D0%B0%D0%B4%D0%BC%D0%B8%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%203&t=&z=13&ie=UTF8&iwloc=&output=embed"
@@ -65,7 +136,7 @@
 
 
 	<!-- Block Footer -->
-	<footer class="footer-team">
+	<footer class="footer-team contact-footer">
 		<div class="container">
 			<div class="footer-row">
 				<div class="footer-col-one">

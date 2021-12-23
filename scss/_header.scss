@@ -174,7 +174,8 @@
 
 .second-page,
 .third-page,
-.team-member {
+.team-member,
+.contact-page {
   .navbar {
     position: static;
     &-toggler-icon {
@@ -198,6 +199,12 @@
   @media (max-width: 992px) {
     .navbar .nav-item .active {
       width: 54px;
+    }
+	 
+  }
+   @media (max-width: 992px) {
+    .navbar .nav-item .nav-border {
+      width: 63px;
     }
   }
 
