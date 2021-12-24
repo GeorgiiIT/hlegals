@@ -512,9 +512,9 @@
       border-bottom: 4px solid #e6e6f0;
       margin-bottom: 40px;
 
-	  @media (max-width: 992px) {
-		  font-weight: 500;
-	  }
+      @media (max-width: 992px) {
+        font-weight: 500;
+      }
     }
 
     .contact-sity {
@@ -547,9 +547,9 @@
       display: flex;
       align-items: center;
 
-		@media (max-width: 992px){
-			margin-bottom: 10px;
-		}
+      @media (max-width: 992px) {
+        margin-bottom: 10px;
+      }
 
       .contact-text-fb {
         font-size: 12px;
@@ -575,22 +575,18 @@
     flex-direction: column;
     width: 40%;
 
-	 
-
-
     .contact-form {
       background: #f5f5fa;
       border-radius: 12px;
       margin-top: 30px;
       margin-bottom: 80px;
 
-		@media (max-width: 992px) {
-			margin-bottom: 40px;
-			margin-left: -15px;
-			margin-right: -15px;
-			border-radius: 0;
-			
-		}
+      @media (max-width: 992px) {
+        margin-bottom: 40px;
+        margin-left: -15px;
+        margin-right: -15px;
+        border-radius: 0;
+      }
 
       .form-indentation {
         display: flex;
@@ -610,13 +606,13 @@
         margin-top: 20px;
         margin-bottom: 0;
 
-		  @media (max-width: 992px) {
-			  font-size: 22px;
-		  }
+        @media (max-width: 992px) {
+          font-size: 22px;
+        }
       }
       .contact-input {
         width: 100%;
-		  font-size: 18px;
+        font-size: 18px;
         background-color: #ffffff;
         border-radius: 8px;
         border: 1px solid white;
@@ -645,9 +641,9 @@
       .contact-form-phone {
         margin-bottom: 20px;
 
-		  @media (max-width: 992px) {
-			  margin-bottom: 10px;
-		  }
+        @media (max-width: 992px) {
+          margin-bottom: 10px;
+        }
       }
       .contact-form-mail {
         margin-bottom: 20px;
@@ -667,56 +663,51 @@
         height: 50px;
         margin-bottom: 20px;
         border: 1px;
-		  font-size: 14px;
+        font-size: 14px;
       }
     }
-	 .contact-submit:hover{
-	color: #f0145a;
-}
+    .contact-submit:hover {
+      color: #f0145a;
+    }
   }
 }
-.contact-row .contact-data .contact-email:hover{
-		color: #f0145a;
+.contact-row .contact-data .contact-email:hover {
+  color: #f0145a;
 }
- @media (max-width: 992px) {
-	  .contact-row{
-	  flex-direction: column;
-	  align-items: center;
-	  margin-top: 20px;
+@media (max-width: 992px) {
+  .contact-row {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
 
-	  .col-contact-one{
-		  width: 100%;
-		  margin-left: 0;
-		  margin-right: 0;
-
-	  }
-	  .col-contact-two{
-		  width: 100%;
-	  }
-
-	  }
-	  
+    .col-contact-one {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .col-contact-two {
+      width: 100%;
+    }
   }
+}
 
-
-  @media (max-width: 992px) {
-	  .contact-background{
-		  background: #3939b6;
-	  }
-
+@media (max-width: 992px) {
+  .contact-background {
+    background: #3939b6;
   }
+}
 
-  @media (max-width: 992px) {
-	  .contact-container{
-		  overflow: hidden;
-	  }
+@media (max-width: 992px) {
+  .contact-container {
+    overflow: hidden;
   }
+}
 
-  .team-footer{
-	  display: flex;
-	  flex-direction: column;
-	  min-height: 100vh;
-  }
-  .footer-team{
-	  margin-top: auto;
-  }
+.team-footer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.footer-team {
+  margin-top: auto;
+}

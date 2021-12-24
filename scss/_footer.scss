@@ -1,13 +1,10 @@
 .footer-team {
   background: #f5f5fa;
   border-radius: 12px 12px 0px 0px;
-//   margin-top: 30px;
-
-
+  //   margin-top: 30px;
 
   .footer-row {
     display: flex;
-	 
 
     &-one {
       display: flex;
@@ -19,8 +16,8 @@
     }
   }
 
-  .footer-row-about{
-	  border-top: 4px solid #e6e6f0;
+  .footer-row-about {
+    border-top: 4px solid #e6e6f0;
   }
 
   .footer-col-one {
@@ -35,14 +32,14 @@
     margin: 0;
     font-weight: 400;
 
-	 @media (max-width: 992px) {
-		 font-weight: 700;
-	 }
-	 @media (max-width: 992px) {
-		 .second-word{
-			 font-weight: 400;
-		 }
-	 }
+    @media (max-width: 992px) {
+      font-weight: 700;
+    }
+    @media (max-width: 992px) {
+      .second-word {
+        font-weight: 400;
+      }
+    }
   }
   .footer-link {
     text-decoration: none;
@@ -122,25 +119,25 @@
     }
     .footer-col-one {
       margin-bottom: 0;
-		margin-top: 25px;
+      margin-top: 25px;
     }
     .footer-col-two {
       width: 100%;
       margin-top: 20px;
-		margin-bottom: 120px;
+      margin-bottom: 120px;
       display: flex;
       justify-content: center;
     }
     .footer-rights {
       text-align: center;
-		margin: 0;
+      margin: 0;
     }
   }
 }
 
-.footer-team-about{
-	border-radius: 0px 0px 0px 0px;
+.footer-team-about {
+  border-radius: 0px 0px 0px 0px;
 }
-.contact-footer{
-	border-radius: 0px 0px 0px 0px;
+.contact-footer {
+  border-radius: 0px 0px 0px 0px;
 }
