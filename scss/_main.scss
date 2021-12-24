@@ -586,6 +586,9 @@
 
 		@media (max-width: 992px) {
 			margin-bottom: 40px;
+			margin-left: -15px;
+			margin-right: -15px;
+			border-radius: 0;
 			
 		}
 
@@ -703,4 +706,17 @@
 
   }
 
-  
+  @media (max-width: 992px) {
+	  .contact-container{
+		  overflow: hidden;
+	  }
+  }
+
+  .team-footer{
+	  display: flex;
+	  flex-direction: column;
+	  min-height: 100vh;
+  }
+  .footer-team{
+	  margin-top: auto;
+  }

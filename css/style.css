@@ -1122,6 +1122,9 @@
 @media (max-width: 992px) {
   .contact-row .col-contact-two .contact-form {
     margin-bottom: 40px;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-radius: 0;
   }
 }
 
@@ -1275,6 +1278,27 @@
   }
 }
 
+@media (max-width: 992px) {
+  .contact-container {
+    overflow: hidden;
+  }
+}
+
+.team-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer-team {
+  margin-top: auto;
+}
+
 .footer-team {
   background: #f5f5fa;
   border-radius: 12px 12px 0px 0px;
@@ -1318,7 +1342,19 @@
 .footer-team .footer-address {
   color: #323264;
   margin: 0;
-  font-weight: 700;
+  font-weight: 400;
+}
+
+@media (max-width: 992px) {
+  .footer-team .footer-address {
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer-team .footer-address .second-word {
+    font-weight: 400;
+  }
 }
 
 .footer-team .footer-link {
