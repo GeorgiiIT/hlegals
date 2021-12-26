@@ -200,9 +200,8 @@
     .navbar .nav-item .active {
       width: 54px;
     }
-	 
   }
-   @media (max-width: 992px) {
+  @media (max-width: 992px) {
     .navbar .nav-item .nav-border {
       width: 63px;
     }
@@ -280,5 +279,10 @@
     &:after {
       width: 20px;
     }
+  }
+}
+@media (max-width: 992px) {
+  .navbar {
+    padding: 0;
   }
 }
